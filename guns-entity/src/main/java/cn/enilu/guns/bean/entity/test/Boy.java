@@ -14,7 +14,6 @@ import javax.persistence.Entity;
 @Entity(name="t_test_boy")
 @Table(appliesTo = "t_test_boy",comment = "男孩")
 @Data
-
 public class Boy extends BaseEntity {
     @Column(columnDefinition = "VARCHAR(32) COMMENT '姓名'")
     private String name;
